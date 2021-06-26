@@ -11,6 +11,8 @@ import  {Register} from "./Auth/Register"
 import {Createpost} from "./Post/CreatePost"
 import { CommentProvider } from "./Comments/CommentProvider";
 import {Createcomment} from "./Comments/CreateComment"
+import {CommentList} from "./Comments/CommentList"
+
 
 export const Poopmap = () => (
     <><UserProvider>
@@ -25,7 +27,7 @@ export const Poopmap = () => (
                                 <Markermap></Markermap>
                             </MapContainer>
                             <Createpost/>
-                            <PostList />
+                            <PostList/>
                             <Createcomment/>
                         </PostProvider>
                         </CommentProvider>

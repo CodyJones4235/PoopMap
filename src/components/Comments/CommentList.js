@@ -29,26 +29,19 @@ export const CommentList = () => {
 
     return (
                 Comments.map(cmt => {
-
                     let username = null
                     for (const user of Users) {
                         if (user.id === cmt.userId) {
                             username = user.name
                         }
                     }
-
-                    for(const post of Posts){
-                        if (post.id === cmt.postId){
-                            
-                    return (
-                            <div className="Comment__content">
-                                <h2 className="Comment__title">@{username} </h2>
-                                <div className="Comment__username">{cmt.msg}</div>
-                            </div>
-                    )
-
-                        }
-                    }
-                })
+                            return (
+                                <div className="Post__content">
+                                    <h2 className="Comment__title">@{username} </h2>
+                                    <div className="Comment__username">{cmt.msg}</div>
+                                </div>
+                            )
+                        } 
+                )
     )
 }
