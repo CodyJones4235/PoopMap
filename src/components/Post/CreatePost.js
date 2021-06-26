@@ -2,7 +2,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { PostContext } from "./PostProvider";
 import { useHistory } from "react-router-dom";
-
+import "../Post/Post.css"
 export const Createpost = () => {
   const { getPosts, addPost } = useContext(PostContext)
   const userId = localStorage.getItem('poop_usr');
@@ -18,7 +18,7 @@ export const Createpost = () => {
   useEffect(() => {
     getPosts()
   }, []);
-
+  let flag1 = 0
   const handleControlledInputChange = (event) => {
 
     const newPost = { ...Posts };
@@ -39,21 +39,11 @@ export const Createpost = () => {
     if (Posts.latitude === "" ) {
       window.alert("Please select a location and a customer");
     } else {
-
-      // const newPost = {
-      //   userId: userId,
-      //   latitude: Posts.latitude,
-      //   longitude: Posts.longitude ,
-      //   title: Posts.title,
-      //   description: Posts.description,
-      //   timestamp: 1624869485
-      // };
       addPost(Posts).then(() => history.push("/"));
     }
   };
 
-  //usr input form
-  return (
+return (
     <form className="postForm">
       <h2 className="postForm__title">New Post</h2>
       <fieldset>
@@ -121,4 +111,4 @@ export const Createpost = () => {
       </button>
     </form>
   );
-};  
+};

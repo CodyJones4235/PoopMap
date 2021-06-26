@@ -23,6 +23,7 @@
 }
 
 .Section__Post{
+    flex-flow: wrap-reverse;
     display: flex;
     flex-wrap: wrap;
 }
