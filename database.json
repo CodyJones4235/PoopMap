@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "cody",
+      "email": "cody@code.com"
+    },
+    {
+      "id": 2,
+      "name": "ydoc",
+      "email": "ydoc@code.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 1,
+      "msg": "nice!"
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "msg": "lol",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "msg": "poop",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "msg": "poop",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "msg": "1",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "msg": "Nice poop man, Good job",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "latitude": "35.755296",
+      "longitude": "-86.912831",
+      "title": "Best poop",
+      "description": "Nice place good poop",
+      "timestamp": 1623869485
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "latitude": "35.755296",
+      "longitude": "-86.912831",
+      "title": "Best poop",
+      "description": "Nice place good poop",
+      "timestamp": 1623869485
+    }
+  ],
+  "Userlikes": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 2
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 15
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 16
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 18
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 22
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 23
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 24
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 25
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 26
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 27
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 28
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 29
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 30
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 31
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 32
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 33
+    }
+  ]
+}
